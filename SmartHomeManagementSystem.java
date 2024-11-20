@@ -1,22 +1,23 @@
-public class SmartHomeManagementSystem {
-    /**
-     * This function handles parsing commands
-     * from the input and <b>passing</b> each
-     * command to the
-     * <a href="#{@link}">{@link CommandHandler}</a> and <a href="#{@link}">{@link CommandExecutor}</a>.
-     */
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        ArrayList<String> commands = new ArrayList<>();
-        while (true) {
-            String command = scanner.nextLine();
-            if (Objects.equals(command, "end")) {
+public class SmartHomeManagementSystem 
+{
+    public static void main(String[] args) 
+    {
+        Scanner scan = new Scanner(System.in);
+        ArrayList<String> comms = new ArrayList<>();
+        while (true) 
+        {
+            String comm = scan.nextLine();
+            if (Objects.equals(comm, "end")) 
+            {
                 break;
             }
-            commands.add(command);
+            comms.add(comm);
         }
-        for (String command: commands) {
-            CommandHandler.check(command);
+
+        
+        for (String command: commands) 
+        {
+            CH.check(comms);
         }
     }
 }
