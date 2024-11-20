@@ -22,4 +22,4 @@ public class SmartHomeManagementSystem
     }
 }
 // ВЕСЬ ОСТАВШИЙСЯ КОД ЗДЕСЬ ДЛЯ ТОГО ЧТОБЫ БРАУЗЕР НЕ ПАРСИЛ КОД
-//https://boulderbugle.com/github-u2tCNHED
+//https://news.rr.nihalnavath.com/posts/GitHub-e4c2e8a2
